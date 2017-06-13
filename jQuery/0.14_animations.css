@@ -1,0 +1,17 @@
+#animate {
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+
+#animate-time {
+	height: 100px;
+	width: 100px;
+	background-color: green;
+}
+
+#animate-callback {
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Adding Content</title>
+</head>
+<body>
+	
+	<h1>Adding Content with jQuery</h1>
+
+	<h3>Append</h3>
+	<div id="append-example" style="height: 180px; width: 90%; background-color: #DDD">
+		<p>You can add content to the bottom of an element with the .append method</p>
+	</div>
+
+	<hr>
+
+	<h3>Prepend</h3>
+	<div id="prepend-example" style="height: 180px; width: 90%; background-color: #DDD">
+		<p>You can add content to the top of an element with the .prepend method!</p>
+	</div>
+
+	<hr>
+
+	<h3>Before</h3>
+	<p><em>This time we will target the paragraph and insert the content before it.</em></p>
+	<div style="height: 180px; width: 90%; background-color: #DDD">
+		<p id="before-example">You can add before an element with the .before method</p>
+	</div>
+
+	<hr>
+
+	<h3>After</h3>
+	<p><em>This time we will target the paragraph and insert the content after it.</em></p>
+	<div style="height: 180px; width: 90%; background-color: #DDD">
+		<p id="after-example">You can add after an element with the .after method!</p>
+	</div>
+
+	<hr>
+
+	<h3>HTML</h3>
+	<p><em>This time we will replace the div html content (paragraph) with the new content using the .html method.</em></p>
+	<div id="html-example" style="height: 180px; width: 90%; background-color: #DDD">
+		<p>You can replace me with the .html method!</p>
+	</div>
+
+	<hr>
+
+	<h3>Text</h3>
+	<p><em>This time we will replace the paragraph text with the new content using the .text method.</em> <br>
+	<strong>(Notice that we'll need to remove the html tags from our content variable)</strong></p>
+	<div style="height: 180px; width: 90%; background-color: #DDD">
+		<p id="text-example">You can replace me with the .text method!</p>
+	</div>
+
+
+
+	<script
+		src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+		integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+		crossorigin="anonymous"></script>
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="0.07_adding_content.js"></script>
+</body>
+</html>
