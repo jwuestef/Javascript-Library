@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Filters</title>
+</head>
+<body>
+
+	<h1>jQuery selectors with filters</h1>
+	<h3>First and Last</h3>
+	<ul id="example-one">
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+	</ul>
+
+	<hr>
+
+	<h3>Odd and Even</h3>
+	<ul id="example-two">
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+	</ul>
+	<p>Not what you expected? Remember, Javascript is 0-based and so the first list item is technically 0, followed by 1</p>
+
+	<hr>
+
+	<h3>Not</h3>
+	<p>Target all li's that are not #list-item-three</p>
+	<ul id="not-example">
+		<li id="list-item-one">item 1</li>
+		<li id="list-item-two">item 2</li>
+		<li id="list-item-three">item 3</li>
+		<li id="list-item-four">item 4</li>
+	</ul>
+
+	<hr>
+
+	<h3>Less than and greater than</h3>
+	<p>Target li tags that haver an index value less than or greater than a specific number</p>
+	<ul id="example-four">
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+		<li>Item 5</li>
+		<li>Item 6</li>
+	</ul>
+	<p> remember that item one starts at index of 0</p>
+
+
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="0.03_filters.js"></script>
+
+</body>
+</html>
