@@ -1,0 +1,30 @@
+body {
+	background-color: pink;
+}
+
+.highlight {
+	background-color: red;
+}
+
+#draggable {
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+	background-color: gray;
+}
+
+#id-combo-demo {
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+	background-color: gray;
+	border: 10px;
+}
+
+.class-combo-demo {
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+	background-color: gray;
+	border: 10px;
+}

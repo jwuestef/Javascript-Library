@@ -20,9 +20,11 @@ $(function() {
 
 // $("#list").find("li").filter(":even").css("background-color", "rgba(180, 180, 30, 0.8)")
 
+
+
 //FILTER IS VERY POWERFUL
 /* $("#list").find("ul > li").filter(function(index){     //you can pass filter a function, it gets the index of the element you're working with: 0,1,2,3
-	//should make something that returns a boolean value. Anything that returns false will be filtered out
+	//should make something that returns a boolean value. Anything that returns false will be filtered out. Anything remaining can be styled/affected/givenCommands
 	return index % 3 === 0;
   }).css("background-color", "rgba(180, 180, 30, 0.8)")
 */
@@ -30,7 +32,7 @@ $(function() {
 // $("li").eq(4).css("background-color", "rgba(180, 180, 30, 0.8)")  //eq() filters by index value. Putting in a negative starts counting backwards from the end
 
 //NOT - ALSO VERY POWERFUL
-// $("li").not(":first").css("background-color", "rgba(180, 180, 30, 0.8)")   //sane as filter, but keeps the falsey values instead
+// $("li").not(":first").css("background-color", "rgba(180, 180, 30, 0.8)")   //same as filter, but keeps the falsey values instead
 /* $("#list").find("ul > li").not(function(index){     //you can pass filter a function, it gets the index of the element you're working with: 0,1,2,3
 	//should make something that returns a boolean value. Anything that returns TRUE will be filtered out
 	return index % 3 === 0;
