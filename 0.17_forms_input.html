@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+	<form>
+
+	<!-- Radio Buttons -->
+	<!-- Adding the "name" attribute to be the same thing groups the radio buttons! -->
+	<!-- Adding the "value" attribute is what tells the radio button to return when selected -->
+		<p>Do you prefer cats or dogs?</p>
+
+		<label for="dogs">Dogs</label>
+		<input type="radio" id="dogs" name="petChoice" value="DOGS">
+
+		<label for="cats">Cats</label>
+		<input type="radio" id="cats" name="petChoice" value="CATS">
+
+	<!-- Dropdown lists -->
+	<!-- For a dropdown list for the user to Select something, it's a "select" element -->
+	<!-- The "name" will be the label under which it sends the data -->
+	<!-- The data sent will be the value of the option, ex: Orange -->
+
+		<p>What's your favorite color?</p>
+		<select name="colorChoice">
+			<option>Red</option>
+			<option>Orange</option>
+			<option>Yellow</option>
+		</select>
+
+	<!-- But what if we don't want the actual value sent? -->
+		<p>What's your current mood?</p>
+		<select name="moodChoice">
+			<option value="happy">:)</option>
+			<option value="neutral">:|</option>
+			<option value="sad">:(</option>
+		</select>
+
+
+		<!-- Multi-line text area -->
+		<textarea name="paragraph" rows="10" cols="50"></textarea>
+
+
+
+		<button>Go!</button>   <!-- If a button is the last element in a form, it automatically submits the form when clicked. -->
+	</form>
+	
+
+
+</body>
+</html>

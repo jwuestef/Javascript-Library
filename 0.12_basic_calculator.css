@@ -1,0 +1,15 @@
+body { 
+  background: #7B1FA2; 
+}
+
+h1, label, p { 
+  background-image: radial-gradient(#9C27B0,#7B1FA2);
+  width: auto;
+  text-align: center;
+  font-weight: bold
+}
+
+button { 
+  background: #FF5722; 
+}
+

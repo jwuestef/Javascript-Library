@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Basic DOM Manipulation</title>
+    <link href="0.11_DOM_manipulation_extras.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <h1>Intro to Programming Weekend</h1>
+    
+    <h3>What I Learned</h3>
+    <ol>
+      <li>Javascript</li>
+      <ul>
+        <li>Loops, Booleans, Arrays</li>        
+      </ul>
+      <li>Some basic HTML layouts</li>
+    </ol>
+    <br />
+    <hr />
+    
+    <!--  Create a section for your hobbies, use: h3 ul li-->
+    <h3>Some of my hobbies include</h3>
+    <ul>
+      <li>Reading</li>
+      <li>Cooking</li>
+      <ul>
+        <li>especially <em>baking</em>!</li>
+      </ul>
+      <li>Petting cats</li>
+      <li>Netflix</li>
+    </ul>
+    <br />
+    <hr />
+    
+    <form>
+      <label>First Name:</label>
+      <br />
+      <input placeholder="Your first name here" id="firstNameId" type="text" name="firstName" />
+      <br />
+      <br />
+      <label>Last Name:</label>
+      <br />
+      <input placeholder="Your last name here" id="lastNameId" type="text" name="lastName" />
+      <br />
+      <br />
+    </form>
+    
+    <button id="buttonClickId" onclick="helloWorld()">Click Me</button>
+    <p id="DOMfirstName">*This is known as the innerHTML of the p tags*</p>
+    <p id="DOMlastName">*Your last name will appear here, in the innerHTML*</p>
+      
+    <script src="0.11_DOM_manipulation_extras.js"></script>
+  </body>
+</html>

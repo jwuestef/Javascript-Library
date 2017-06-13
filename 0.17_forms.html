@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+	<h1>Login</h1>
+
+<!--Two important in a form. 
+	Action is where the form sends data to.
+	Method, what HTTP method (GET or POST).
+-->
+
+<!--Action usually sends info to our own database, but since we don't have one set up, ex:
+	 form action="http://wikipedia.org" method="GET"> 
+-->
+
+<!--Add in a "name" attribute and submit the form, 
+	it will let us see the output of the form in the URL:
+		file:///C:/Users/Jeremy/Desktop/Udemy%20-%20Colt%20Steele/forms.html?username=asdf&password=1232343 
+	We give names to our data/input so we can retrieve it later 
+-->
+
+
+
+<!--   TWO WAYS TO DO LABELS, REASON IS FOR BLIND FOLKS AND AUTOMATED SCREEN READERS. 
+	   The label and the input need to be linked in some way
+  
+	<form>
+
+		<label>
+			Username:
+			<input name="username" type="text" placeholder="username">
+		</label>
+
+		<label>
+			Password:
+			<input name="password" type="password" placeholder="password">
+		</label>
+
+		<input type="submit">
+	</form>
+-->
+
+	<form>
+
+		<label for="emailID">Email:</label>
+		<input id="emailID" name="email" type="email" placeholder="email" required>
+		
+
+		<label for="passwordID">Password:</label>
+		<input id="passwordID" name="password" type="password" placeholder="password" required>
+		
+
+		<input type="submit">
+	</form>
+
+
+
+
+
+
+
+</body>
+</html>

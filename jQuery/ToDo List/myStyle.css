@@ -1,0 +1,39 @@
+* {
+	padding: 0.6rem;
+}
+
+h1, h2, li, input, span {
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	font-size: 1.2rem;
+}
+
+li input {
+	display: none;
+	font-style: italic;
+}
+
+li.edit span {
+	display: none;
+}
+
+li.edit input {
+	display: initial;
+}
+
+li span, input {
+	background-color: gray;
+	border-radius: 50%;
+	max-width: 100%;
+}
+
+#addButton {
+	border-radius: 20%;
+}
+
+#addButton:hover {
+	background-color: lightblue;
+}

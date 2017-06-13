@@ -1,0 +1,20 @@
+body {
+  background-image: radial-gradient(#579be0,#565656);
+}
+
+h1 {
+  color: #db0f0f;
+  font-family: 30px;
+  font-family: Sans-serif;
+  letter-spacing: 0.1em
+}
+
+h3 {
+  color: #fc8d1e;
+  font-family: Comic Sans MS, Sans-serif;
+}
+
+ul, ol, form, p {
+  color: white;
+  font-family: Georgia;
+}

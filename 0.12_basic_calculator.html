@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Basic Calculator</title>
+    <link href="0.12_basic_calculator.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Calc App</h1>
+    <br />
+    <form>
+      <label>First number here:</label>
+      <br />
+      <input id="numOne" type="number" />
+      <br />
+      <br />
+      <label>Second number here:</label>
+      <br />
+      <input id="numTwo" type="number" />
+      <br />
+      <br />
+    </form>
+    
+    <button class="mathButton" onclick="doMath('add')">Add</button>
+    <button class="mathButton" onclick="doMath('subtract')">Subtract</button>
+    <button class="mathButton" onclick="doMath('multiply')">Multiply</button>
+    <button class="mathButton" onclick="doMath('divide')">Divide</button>
+    <button class="mathButton" onclick="doMath('modulus')">Modulus</button>
+    
+    <p id="resultText"></p>
+    <p id="result"></p>
+    
+    <br />
+    <br />
+    
+    <script src="0.12_basic_calculator.js"></script>
+  </body>
+</html>
